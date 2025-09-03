@@ -1,0 +1,47 @@
+[
+  {
+    "id": "p1",
+    "name": "Fresh Apples (1kg)",
+    "description": "Crisp and sweet farm-fresh apples.",
+    "price": 120,
+    "category": "Grocery",
+    "image": "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?q=80&w=800",
+    "stock": 50
+  },
+  {
+    "id": "p2",
+    "name": "Organic Milk (1L)",
+    "description": "Locally sourced organic cow milk.",
+    "price": 65,
+    "category": "Dairy",
+    "image": "https://images.unsplash.com/photo-1541976076758-347942db1970?q=80&w=800",
+    "stock": 100
+  },
+  {
+    "id": "p3",
+    "name": "Brown Bread",
+    "description": "Whole wheat brown bread, soft and fresh.",
+    "price": 45,
+    "category": "Bakery",
+    "image": "https://images.unsplash.com/photo-1604909052715-8f7a5a0302d5?q=80&w=800",
+    "stock": 39
+  },
+  {
+    "id": "p4",
+    "name": "Coconut Oil (500ml)",
+    "description": "Cold-pressed pure coconut oil.",
+    "price": 220,
+    "category": "Household",
+    "image": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?q=80&w=800",
+    "stock": 30
+  },
+  {
+    "id": "p5",
+    "name": "Dark Chocolate (90g)",
+    "description": "70% cocoa, rich & bitter-sweet.",
+    "price": 99,
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1548907040-4baa42d10929?q=80&w=800",
+    "stock": 70
+  }
+]

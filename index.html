@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Local Store</title>
+  <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <div class="brand">
+        <div class="logo">LS</div>
+        <span>Local Store</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart <span id="cartCount" class="kbd">0</span></a>
+        <a href="order.html">Track Order</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Find your essentials</h2>
+    <div class="controls">
+      <input id="search" placeholder="Search products... (e.g. milk, bread)" />
+      <select id="category">
+        <option>All</option>
+        <option>Grocery</option>
+        <option>Dairy</option>
+        <option>Bakery</option>
+        <option>Household</option>
+        <option>Snacks</option>
+      </select>
+      <select id="sort">
+        <option value="">Sort</option>
+        <option value="price_asc">Price: Low → High</option>
+        <option value="price_desc">Price: High → Low</option>
+        <option value="name">Name (A–Z)</option>
+      </select>
+      <button id="applyBtn">Apply</button>
+    </div>
+
+    <div id="products" class="grid"></div>
+  </main>
+
+  <footer class="footer">
+    Optional features: reviews, order tracking & support are included in pages above.
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

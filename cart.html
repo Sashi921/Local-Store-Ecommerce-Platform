@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart • Local Store</title>
+  <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <div class="brand">
+        <div class="logo">LS</div>
+        <span>Local Store</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart <span id="cartCount" class="kbd">0</span></a>
+        <a href="order.html">Track Order</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Your cart</h2>
+    <div id="cartTableWrapper"></div>
+
+    <h3>Checkout</h3>
+    <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 16px;">
+      <input id="name" placeholder="Full Name" />
+      <input id="email" placeholder="Email" />
+      <input id="phone" placeholder="Phone" />
+      <input id="address" placeholder="Address" />
+    </div>
+    <div class="row" style="margin-top: 16px;">
+      <button id="checkout">Place Order</button>
+      <button id="clear" class="ghost">Clear Cart</button>
+    </div>
+
+    <div id="orderResult" class="muted" style="margin-top: 14px;"></div>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>

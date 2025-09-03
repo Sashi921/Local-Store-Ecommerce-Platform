@@ -1,0 +1,20 @@
+[
+  {
+    "id": "120A0C12",
+    "items": [
+      {
+        "productId": "p3",
+        "qty": 1
+      }
+    ],
+    "total": 45,
+    "status": "PLACED",
+    "customer": {
+      "name": "Rishu Raj",
+      "email": "rajhjp200@gmail.com",
+      "address": "Gautam Budha Nagar",
+      "phone": "07070576131"
+    },
+    "createdAt": "2025-09-03T06:26:56.298Z"
+  }
+]

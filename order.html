@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Track Order • Local Store</title>
+  <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <div class="brand">
+        <div class="logo">LS</div>
+        <span>Local Store</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart <span id="cartCount" class="kbd">0</span></a>
+        <a href="order.html">Track Order</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Track your order</h2>
+    <div class="row" style="gap:8px;">
+      <input id="trackId" placeholder="Enter Order ID (e.g. 7F2E4A1B)"/>
+      <button id="track">Check Status</button>
+    </div>
+    <div id="trackResult" style="margin-top:16px;"></div>
+
+    <hr/>
+
+    <h3>Need help?</h3>
+    <div class="grid" style="grid-template-columns: 1fr 1fr;">
+      <input id="supportName" placeholder="Name"/>
+      <input id="supportEmail" placeholder="Email"/>
+    </div>
+    <textarea id="supportMsg" placeholder="Write your message..." rows="4" style="margin-top:8px;"></textarea>
+    <div class="row" style="margin-top:8px;">
+      <button id="sendSupport" class="secondary">Send Message</button>
+    </div>
+    <p id="supportResult" class="muted"></p>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/order.js"></script>
+</body>
+</html>

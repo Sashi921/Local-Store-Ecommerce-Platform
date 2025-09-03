@@ -1,0 +1,18 @@
+[
+  {
+    "id": "d925c04c-e6b2-4fe5-a66a-5c25405af323",
+    "productId": "p3",
+    "name": "sashi",
+    "rating": 4,
+    "comment": "great",
+    "createdAt": "2025-09-03T06:26:31.828Z"
+  },
+  {
+    "id": "7f43f0d1-683d-4bec-a711-c61683657605",
+    "productId": "p2",
+    "name": "sashi",
+    "rating": 4,
+    "comment": "good",
+    "createdAt": "2025-09-03T06:35:17.075Z"
+  }
+]
